@@ -10,14 +10,27 @@ body {
 /* Estilos para el encabezado */
 header {
     background-color: #333;
-    color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+/* Estilos para la fotografía */
+header img {
+    width: 150px; /* Ajusta el tamaño de tu fotografía */
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
 }
 
 header h1 {
     margin: 0;
     font-size: 36px;
+    color: #fff;
+}
+
+header p {
+    color: #fff;
 }
 
 /* Estilos para las secciones */
@@ -43,21 +56,21 @@ li {
     margin-bottom: 10px;
 }
 
+/* Estilos para los iconos de redes sociales */
+.redes-sociales {
+    margin-top: 10px;
+}
+
+.redes-sociales a {
+    color: #333;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
 /* Estilos para el pie de página */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-}
-
-/* Estilos responsivos */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 28px;
-    }
-
-    section h2 {
-        font-size: 20px;
-    }
 }
