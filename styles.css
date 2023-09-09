@@ -4,46 +4,20 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+    color: #333;
 }
 
 /* Estilos para el encabezado */
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
 }
 
 header h1 {
     margin: 0;
     font-size: 36px;
-}
-
-nav {
-    margin-top: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
 }
 
 /* Estilos para las secciones */
@@ -59,9 +33,14 @@ section h2 {
     font-size: 24px;
 }
 
-section p {
-    font-size: 16px;
-    line-height: 1.5;
+/* Estilos para las listas de habilidades */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 /* Estilos para el pie de página */
@@ -72,36 +51,13 @@ footer {
     padding: 10px 0;
 }
 
-/* Estilos para enlaces */
-a {
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #ff6600;
-    text-decoration: underline;
-}
-
-/* Media queries para dispositivos de pantalla pequeña */
+/* Estilos responsivos */
 @media (max-width: 768px) {
     header h1 {
         font-size: 28px;
     }
 
-    nav a {
-        font-size: 16px;
-    }
-
-    section {
-        padding: 10px;
-        margin: 10px 0;
-    }
-
     section h2 {
         font-size: 20px;
-    }
-
-    section p {
-        font-size: 14px;
     }
 }
